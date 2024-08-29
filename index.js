@@ -1,7 +1,7 @@
 const http = require("http")
 
 function requestController(){
-    console.log("RECIBIMOS UNA NUEVA request")
+    console.log("hola mundo!!!!!!!")
 }
 //configurar nuestro servidor
 const server = http.createServer(requestController)
